@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Meet Tyreeck</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <canvas id='canvas'></canvas>
+
+    <section class='section hello'>
+        <div class="text">
+            <h1>HI, I'M TYREECK</h1>
+            <p>Frontend Developer</p>
+            <p>Scroll For More</p>
+        </div>
+    </section>
+
+    <section class='section about'>
+        <div class="text">
+            <h2>About</h2>
+            <p>Self-taught (and actively learning) Web-Developer from North Carolina. Some of the tech I have been using/learning include HTML, CSS, Javascript, React + Redux, with more to come soon. 
+                When I'm not in an IDE or doing anything coding related I spend my time in the gym, on the basketball court, in a good book or learning other skills.
+            </p>
+        </div>
+    </section>
+
+    <section class="section projects">
+        <div class='text'>
+            <h2>Projects</h2>
+            <p>Here are some of the small personal projects I have completed over the last few weeks. More coming soon :)  </p>
+        </div>
+        <div class="right clickable"></div>
+        <div class="projects-container">
+            <div class='project one clickable'></div>
+            <div class='project two clickable'></div>
+            <div class='project three clickable'></div>
+        </div>
+        <div class="left clickable"></div>
+    </section>
+
+    <section class='section contact'>
+        <div class="text">
+            <h2>Contact</h2>
+            <p>I would love to talk to you!</p>
+        </div>
+        <form action='https://formsubmit.co/mrmakki12@gmail.com' method="POST" target='_blank'>
+            <input type="text" class="clickable" placeholder="Name" id="" required>
+            <input type="text" class="clickable" placeholder="Subject" id="">
+            <input type="email" class='clickable' placeholder="Email" name="" id="" required>
+            <textarea name=""class='clickable' id="message" placeholder="Alright, let me have it..." cols="30" rows="10"></textarea>
+            <button type="submit" class='clickable'>Submit</button>
+        </form>
+        <div class='github clickable'></div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src='./home.js'></script>
+</body>
+</html>
