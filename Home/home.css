@@ -27,7 +27,7 @@
 
 a {
     display: block;
-    height: 300px;
+    
 }
 
 body::-webkit-scrollbar {
@@ -263,8 +263,17 @@ button:hover {
     border-radius: 50%;
     margin-top: 1em;
 }
-
 /* End Contact section */
+
+/* Footer Styles */
+footer {
+    position: relative;
+    color: white;
+    height: 30px;
+    padding-left: 10px;
+}
+/* End Footer Styles */
+
 /* End Styles */
 
 /* Queries */ 
