@@ -1,3 +1,18 @@
+//get button to play and pause audio
+const audio = new Audio('./generative-digital-ambient-music-9416.mp3')
+const playPause = document.querySelector('.audio')
+let isPlaying = false
+playPause.addEventListener('click', () => {
+    if(isPlaying === false) {
+        playPause.innerText = 'Pause Audio:('
+        audio.play()
+    } else {
+        playPause.innerText = 'Play Audio!'
+        audio.pause()
+    }
+    isPlaying = !isPlaying
+})
+
 //links to pages
 const dogLink = document.querySelector('.one')
 dogLink.addEventListener('click', ()=> {

@@ -10,6 +10,21 @@
     cursor: none;
 }
 
+.audio {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 70px;
+    width: 70px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 2;
+    background-color: white;
+}
+
 a {
     display: block;
     height: 300px;
@@ -41,7 +56,7 @@ h2 {
     width: 20px;
     border-radius: 50%;
     background-color: #c0392b;
-    z-index: 2;
+    z-index: 3;
     transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
     background-color 0.3s ease-in-out, border 0.3s ease-in-out;
 }
