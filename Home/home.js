@@ -16,7 +16,7 @@ playPause.addEventListener('click', () => {
 //links to pages
 const dogLink = document.querySelector('.one')
 dogLink.addEventListener('click', ()=> {
-    window.open('https://github.com/mrmakki12/Mock-dog-company')
+    window.open('https://dogs-best-friend.netlify.app')
 })
 
 const mealsLink = document.querySelector('.two')
