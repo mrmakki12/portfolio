@@ -165,7 +165,7 @@ h2 {
 }
 
 .project.one {
-    background: url('../mock-dog-company.png');
+    background: url('./mock-dog-company.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -173,14 +173,21 @@ h2 {
 }
 
 .project.two {
-    background: url('../meal-ideas.png');
+    background: url('./meal-ideas.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .project.three {
-    background: url('../dictionary.png');
+    background: url('./dictionary.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.project.four {
+    background: url('./sunnyside.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

@@ -29,6 +29,11 @@ dictionaryLink.addEventListener('click', () => {
     window.open('https://github.com/mrmakki12/Dictionary-api')
 })
 
+const sunnysideLink = document.querySelector('.four')
+sunnysideLink.addEventListener('click', () => {
+    window.open('https://the-sunnyside-agency.netlify.app')
+})
+
 const githubLink = document.querySelector('.github')
 githubLink.addEventListener('click', () => {
     window.open('https://github.com/mrmakki12')
