@@ -21,12 +21,12 @@ dogLink.addEventListener('click', ()=> {
 
 const mealsLink = document.querySelector('.two')
 mealsLink.addEventListener('click', () => {
-    window.open('https://github.com/mrmakki12/Meal-ideas')
+    window.open('https://meal-ideas.netlify.app')
 })
 
 const dictionaryLink = document.querySelector('.three')
 dictionaryLink.addEventListener('click', () => {
-    window.open('https://github.com/mrmakki12/Dictionary-api')
+    window.open('https://the-dictionary-api.netlify.app')
 })
 
 const sunnysideLink = document.querySelector('.four')
