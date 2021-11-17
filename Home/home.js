@@ -34,6 +34,11 @@ sunnysideLink.addEventListener('click', () => {
     window.open('https://the-sunnyside-agency.netlify.app')
 })
 
+const gainsLink = document.querySelector('.five')
+gainsLink.addEventListener('click', () => {
+    window.open('https://gains-tracker.netlify.app')
+})
+
 const githubLink = document.querySelector('.github')
 githubLink.addEventListener('click', () => {
     window.open('https://github.com/mrmakki12')
