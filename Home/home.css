@@ -164,6 +164,14 @@ h2 {
     border: 1px solid black;
 }
 
+.project.zero {
+    background: url('./calculator.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
 .project.one {
     background: url('./mock-dog-company.png');
     background-position: center;

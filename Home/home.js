@@ -14,6 +14,11 @@ playPause.addEventListener('click', () => {
 })
 
 //links to pages
+const calculatorLink = document.querySelector('.zero')
+calculatorLink.addEventListener('click', () => {
+    window.open('https://tyreecks-calculator.netlify.app')
+})
+
 const dogLink = document.querySelector('.one')
 dogLink.addEventListener('click', ()=> {
     window.open('https://dogs-best-friend.netlify.app')
