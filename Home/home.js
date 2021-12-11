@@ -16,7 +16,7 @@ playPause.addEventListener('click', () => {
 //links to pages
 const donutLink = document.querySelector('.negative-one')
 donutLink.addEventListener('click', () => {
-    window.open('https://donut-rotation.netlify.app')
+    window.open('https://rotating-donut.netlify.app')
 })
 
 const calculatorLink = document.querySelector('.zero')
