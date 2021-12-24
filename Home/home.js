@@ -14,6 +14,11 @@ playPause.addEventListener('click', () => {
 })
 
 //links to pages
+const donutlandLink = document.querySelector('.negative-two');
+donutlandLink.addEventListener('click', () => {
+    window.open('https://donutland.netlify.app');
+})
+
 const donutLink = document.querySelector('.negative-one')
 donutLink.addEventListener('click', () => {
     window.open('https://rotating-donut.netlify.app')

@@ -164,6 +164,14 @@ h2 {
     border: 1px solid black;
 }
 
+.project.negative-two {
+    background: url('./donutland.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+}
+
 .project.negative-one {
     background: url('./donut.png');
     background-position: center;
